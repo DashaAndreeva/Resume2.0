@@ -67,7 +67,7 @@ img {
 
 .header {
   padding-top: 46px;
-  background-color: #f1f1f1;
+  background-color: #030303;
 }
 
 .header-nav {
@@ -79,7 +79,7 @@ img {
 
 .logo {
   position: relative;
-  color: #000;
+  color: #ffffff;
   font-size: 32px;
   font-weight: 700;
   line-height: 1;
@@ -92,7 +92,7 @@ img {
   display: block;
   width: 8px;
   height: 8px;
-  background-color: #fda300;
+  background-color: #fd7a00;
   border-radius: 50%;
   bottom: 0;
   right: 0;
@@ -106,7 +106,7 @@ img {
 }
 
 .nav-item {
-  color: #000;
+  color: #ffffff;
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
@@ -115,11 +115,11 @@ img {
 
 .nav-item:hover,
 .nav-item:focus {
-  color: #fda300;
+  color: #fd7a00;
 }
 
 .nav-item.active {
-  color: #606060;
+  color: #bbb8b8;
 }
 
 /* Hero */
@@ -136,12 +136,14 @@ img {
 }
 
 .hero-title {
+  color: #fff;
   font-size: 44px;
   font-weight: 600;
   line-height: normal;
   margin-bottom: 20px;
 }
 .hero-text {
+  color: #fff;
   font-size: 14px;
   font-style: normal;
   line-height: 2;
@@ -149,13 +151,12 @@ img {
 
 .hero-img {
   width: 494px;
-  height: 612px;
 }
 
 /* Services */
 .skills {
   padding: 90px 0 90px 0;
-  background-color: #fff;
+  background-color: #a4a3a3;
 }
 
 .skills-list {
@@ -185,7 +186,7 @@ img {
 
 /* Portfolio */
 .portfolio {
-  background-color: #f1f1f1;
+  background-color: #030303;
   padding: 90px 0;
 }
 
@@ -194,7 +195,7 @@ img {
 }
 
 .portfolio-title {
-  color: #070707;
+  color: #ffffff;
   font-size: 34px;
   font-weight: 600;
   line-height: normal;
@@ -217,17 +218,18 @@ img {
 }
 
 .portfolio-links {
-  color: #070707;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
   text-decoration-line: underline;
+  text-transform: capitalize;
 }
 
 /* Contacts */
 
 .contacts {
-  background-color: #fff;
+  background-color: #a4a3a3;
   padding: 90px 0;
   text-align: center;
 }
@@ -260,7 +262,7 @@ img {
 .contacts-btn:hover,
 .contacts-btn:focus {
   color: #000;
-  background-color: #fda300;
+  background-color: #fd7a00;
 }
 
 .contact-list {
@@ -284,7 +286,7 @@ img {
 
 .contact-item:hover,
 .contact-item:focus {
-  stroke: #fda300;
+  stroke: #fd7a00;
   fill: none;
 }
 
@@ -296,7 +298,7 @@ img {
   justify-content: center;
 }
 .contact-text {
-  color: #828282;
+  color: #393939;
   font-size: 14px;
   line-height: normal;
 }
