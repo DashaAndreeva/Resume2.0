@@ -73,7 +73,7 @@ img {
 .header-nav {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+
   margin-bottom: 60px;
 }
 
@@ -393,6 +393,10 @@ img {
     padding-top: 46px;
   }
 
+  .btn-open-menu {
+    display: none;
+  }
+
   .menu-mob-open {
     display: none;
   }
@@ -404,6 +408,7 @@ img {
   .nav-list {
     display: flex;
     gap: 50px;
+    justify-content: flex-end;
   }
 
   .header-row {
