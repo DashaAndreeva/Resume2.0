@@ -164,17 +164,19 @@ img {
 
 /* Services */
 .skills {
-  padding: 90px 0 90px 0;
+  text-align: center;
+  padding: 60px 0;
   background-color: #a4a3a3;
 }
 
 .skills-list {
   display: flex;
-  gap: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .skills-svg {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .skills-item {
@@ -196,7 +198,7 @@ img {
 /* Portfolio */
 .portfolio {
   background-color: #030303;
-  padding: 90px 0;
+  padding: 30px 0;
 }
 
 .title {
@@ -213,17 +215,21 @@ img {
 
 .portfolio-list {
   text-align: center;
-  padding: 0 117px;
+  padding: 0 15px;
 }
 
 .portfolio-items:not(:last-child) {
   margin-bottom: 90px;
 }
 
+.portfolio-item {
+  padding: 0 30px;
+}
+
 .portfolio-img {
-  margin-bottom: 40px;
-  width: 930px;
-  height: 500px;
+  margin-bottom: 30px;
+  width: 360px;
+  height: 170px;
 }
 
 .portfolio-links {
@@ -239,19 +245,19 @@ img {
 
 .contacts {
   background-color: #a4a3a3;
-  padding: 90px 0;
+  padding: 60px 0;
   text-align: center;
 }
 
 .contacts-title {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .contact-subtitle {
   color: #070707;
   font-size: 18px;
   font-style: normal;
   line-height: normal;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .contacts-btn {
@@ -277,8 +283,8 @@ img {
 .contact-list {
   display: flex;
   text-align: center;
-  padding: 0 400px;
-  gap: 60px;
+  padding: 0 40px;
+  gap: 50px;
   margin-bottom: 40px;
 }
 .contact-item {
@@ -317,7 +323,7 @@ img {
     max-width: 1200px;
     padding: 0 30px;
   }
-
+  /* Hero */
   .header {
     padding-top: 46px;
   }
@@ -353,5 +359,56 @@ img {
 
   .hero-img {
     width: 494px;
+  }
+
+  /* Services */
+  .skills {
+    text-align: left;
+    padding: 90px 0;
+  }
+
+  .skills-svg {
+    margin-bottom: 30px;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+  }
+
+  /* Portfolio */
+
+  .portfolio {
+    padding: 90px 0;
+  }
+
+  .portfolio-list {
+    padding: 0 117px;
+  }
+
+  .portfolio-img {
+    margin-bottom: 40px;
+    width: 930px;
+    height: 500px;
+  }
+
+  /* Contacts */
+
+  .contacts {
+    padding: 90px 0;
+  }
+
+  .contacts-title {
+    margin-bottom: 40px;
+  }
+
+  .contact-subtitle {
+    margin-bottom: 40px;
+  }
+
+  .contact-list {
+    padding: 0 400px;
+    gap: 60px;
   }
 }
